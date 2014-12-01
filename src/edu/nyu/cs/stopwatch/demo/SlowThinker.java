@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.logging.Logger;
 
 import edu.nyu.cs.stopwatch.api.IStopwatch;
+import edu.nyu.cs.stopwatch.impl.StopwatchFactory;
 
 /**
  * This is a simple program that demonstrates just some of the functionality of the 
