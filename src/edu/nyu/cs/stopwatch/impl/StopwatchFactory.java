@@ -16,8 +16,8 @@ import edu.nyu.cs.stopwatch.api.IStopwatch;
  * provides a convenient method for getting a list of those objects.
  */
 public class StopwatchFactory {
-    private static final Set<String> idSet = Collections.synchronizedSet(new CopyOnWriteArraySet<>());
-    private static final List<IStopwatch> stopwatches = Collections.synchronizedList(new CopyOnWriteArrayList<>());
+    private static final Set<String> idSet = Collections.synchronizedSet(new CopyOnWriteArraySet<String>());
+    private static final List<IStopwatch> stopwatches = Collections.synchronizedList(new CopyOnWriteArrayList<IStopwatch>());
     
     /**
      * Suppress default constructor for noninstantiable

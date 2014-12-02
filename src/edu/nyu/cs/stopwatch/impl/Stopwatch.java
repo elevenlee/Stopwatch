@@ -25,7 +25,7 @@ public class Stopwatch implements IStopwatch {
     private long totalTime = 0;
     private boolean running = false;
     private final List<Long> lapTimes = 
-            Collections.synchronizedList(new CopyOnWriteArrayList<>());
+            Collections.synchronizedList(new CopyOnWriteArrayList<Long>());
     
     /**
      * Creates a new {@code Stopwatch} object with specified id. The constructor is package-private, only the 
